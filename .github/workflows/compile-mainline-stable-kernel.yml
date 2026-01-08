@@ -13,15 +13,16 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "unifreq"
+        default: "jerry19521"
         type: choice
         options:
+          - jerry19521
           - unifreq
           - ophub
       kernel_version:
         description: "Select kernel version"
         required: false
-        default: "6.12.y"
+        default: "6.1.y"
         type: choice
         options:
           - 5.10.y
